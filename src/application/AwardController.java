@@ -40,7 +40,8 @@ public class AwardController {
 		
 		String[] Marks = new String[2];
 		String currentLevel="";
-		
+
+		//declare and initialize level and points variables
 		int level=0;
 		int points=0;
 		
