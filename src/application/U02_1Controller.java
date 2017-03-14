@@ -22,6 +22,7 @@ import javafx.scene.control.Label;
 import javafx.scene.control.ComboBox;
 
 public class U02_1Controller implements Initializable {
+	//define labels,textfields and buttons
 	@FXML
 	private Label M1;
 	@FXML
