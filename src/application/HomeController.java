@@ -18,7 +18,7 @@ import javafx.stage.Stage;
 public class HomeController{
 	
 	
-	
+	//declare buttons
 	@FXML
 	private Button btn03;
 	@FXML
