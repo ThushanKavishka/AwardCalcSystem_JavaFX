@@ -31,7 +31,7 @@ import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
 
 public class R01Controller {
-
+	//define labels,buttons and textfields
 	@FXML
 	private Label Index;
 	@FXML
