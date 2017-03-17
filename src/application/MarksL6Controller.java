@@ -12,6 +12,7 @@ import javafx.stage.Stage;
 import javafx.scene.control.Label;
 
 public class MarksL6Controller {
+	//define labels,textfields and buttons
 	@FXML
 	private Button btn47;
 	@FXML
