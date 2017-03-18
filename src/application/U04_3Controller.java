@@ -20,6 +20,7 @@ import javafx.scene.control.Label;
 import javafx.scene.control.ComboBox;
 
 public class U04_3Controller implements Initializable{
+	//define labels,textfields and buttons
 	@FXML
 	private Button btn51;
 	@FXML
