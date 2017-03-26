@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="375.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.U03_3Controller">
+   <children>
+      <ImageView fitHeight="449.0" fitWidth="582.0" layoutX="-182.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../img4/50.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="M8" layoutX="13.0" layoutY="137.0" text="Module" textFill="#f8f7f7">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="Label08" layoutX="14.0" layoutY="201.0" prefHeight="30.0" prefWidth="372.0" textFill="#d31111">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="StatusLbl11" layoutX="14.0" layoutY="269.0" prefHeight="37.0" prefWidth="372.0" text="        Status" textFill="#d70909">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="LevelCombo8" layoutX="87.0" layoutY="137.0" prefWidth="150.0" />
+      <Button fx:id="btn41" layoutX="169.0" layoutY="334.0" mnemonicParsing="false" onAction="#ReferralL5Apply" text="Apply Marks" />
+      <Button fx:id="btn42" layoutX="260.0" layoutY="334.0" mnemonicParsing="false" onAction="#ReferralL5Ok" prefHeight="25.0" prefWidth="52.0" text="OK" />
+      <Button fx:id="btn43" layoutX="321.0" layoutY="334.0" mnemonicParsing="false" onAction="#CloseApp9" text="Cancel" />
+      <TextField fx:id="Mr8" layoutX="251.0" layoutY="137.0" prefHeight="25.0" prefWidth="122.0" promptText="     Enter Marks" />
+      <Label layoutX="25.0" layoutY="31.0" prefHeight="27.0" prefWidth="137.0" text="Referral Marks" textFill="#e10ab9">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="IndexNo8txt" layoutX="223.0" layoutY="30.0" prefHeight="30.0" prefWidth="150.0" promptText="          Index No">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

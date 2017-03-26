@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="459.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MarksL6Controller">
+   <children>
+      <ImageView fitHeight="471.0" fitWidth="547.0" layoutX="-47.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../img1/50.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn47" layoutX="338.0" layoutY="419.0" mnemonicParsing="false" onAction="#MarksL6Ok" prefHeight="25.0" prefWidth="52.0" text="OK" />
+      <Button fx:id="btn48" layoutX="403.0" layoutY="419.0" mnemonicParsing="false" onAction="#CloseApp18" text="Cancel" />
+      <Label layoutX="27.0" layoutY="19.0" prefHeight="17.0" prefWidth="168.0" text="Marks - L6" textFill="#d9e105">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="M13Lbl" layoutX="13.0" layoutY="87.0" prefHeight="17.0" prefWidth="98.0" text="Module 13" textFill="#fcf8f8">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label fx:id="M14Lbl" layoutX="13.0" layoutY="140.0" prefHeight="17.0" prefWidth="98.0" text="Module 14" textFill="#fcf8f8">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label fx:id="M15Lbl" layoutX="13.0" layoutY="198.0" prefHeight="17.0" prefWidth="98.0" text="Module 15" textFill="#fcf8f8">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label fx:id="M16Lbl" layoutX="13.0" layoutY="259.0" prefHeight="17.0" prefWidth="98.0" text="Module 16" textFill="#fcf8f8">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label fx:id="M17Lbl" layoutX="13.0" layoutY="313.0" prefHeight="17.0" prefWidth="98.0" text="Module 17" textFill="#fcf8f8">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <TextField fx:id="M13txt1" layoutX="126.0" layoutY="83.0" prefHeight="25.0" prefWidth="70.0" promptText="   ICT01" />
+      <TextField fx:id="M14txt1" layoutX="126.0" layoutY="136.0" prefHeight="25.0" prefWidth="70.0" promptText="   ICT01" />
+      <TextField fx:id="M15txt1" layoutX="126.0" layoutY="194.0" prefHeight="25.0" prefWidth="70.0" promptText="   ICT01" />
+      <TextField fx:id="M16txt1" layoutX="126.0" layoutY="255.0" prefHeight="25.0" prefWidth="70.0" promptText="   ICT01" />
+      <TextField fx:id="M17txt1" layoutX="126.0" layoutY="309.0" prefHeight="25.0" prefWidth="70.0" promptText="   CW01" />
+      <TextField fx:id="M13txt2" layoutX="209.0" layoutY="83.0" prefHeight="25.0" prefWidth="70.0" promptText="   ICT02" />
+      <TextField fx:id="M14txt2" layoutX="209.0" layoutY="136.0" prefHeight="25.0" prefWidth="70.0" promptText="   CW01" />
+      <TextField fx:id="M15txt2" layoutX="209.0" layoutY="194.0" prefHeight="25.0" prefWidth="70.0" promptText="   ICT02" />
+      <TextField fx:id="M16txt2" layoutX="209.0" layoutY="255.0" prefHeight="25.0" prefWidth="70.0" promptText="   ICT02" />
+      <TextField fx:id="M17txt2" layoutX="209.0" layoutY="309.0" prefHeight="25.0" prefWidth="70.0" promptText="   CW02" />
+      <Label layoutX="236.0" layoutY="36.0" prefHeight="20.0" prefWidth="70.0" text="Index No" textFill="#fcf8f8">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="L6Index" layoutX="314.0" layoutY="33.0" prefHeight="25.0" prefWidth="115.0" />
+      <Button fx:id="btn49" layoutX="222.0" layoutY="419.0" mnemonicParsing="false" onAction="#MarksL6Apply" prefHeight="25.0" prefWidth="98.0" text="Apply Marks" />
+      <TextField fx:id="L601" editable="false" layoutX="316.0" layoutY="83.0" prefHeight="25.0" prefWidth="115.0" promptText="       AVG Marks" />
+      <TextField fx:id="L602" editable="false" layoutX="316.0" layoutY="136.0" prefHeight="25.0" prefWidth="115.0" promptText="       AVG Marks" />
+      <TextField fx:id="L603" editable="false" layoutX="316.0" layoutY="194.0" prefHeight="25.0" prefWidth="115.0" promptText="       AVG Marks" />
+      <TextField fx:id="L604" editable="false" layoutX="316.0" layoutY="255.0" prefHeight="25.0" prefWidth="115.0" promptText="       AVG Marks" />
+      <TextField fx:id="L605" editable="false" layoutX="316.0" layoutY="309.0" prefHeight="25.0" prefWidth="115.0" promptText="       AVG Marks" />
+      <Separator layoutX="294.0" layoutY="69.0" orientation="VERTICAL" prefHeight="287.0" prefWidth="7.0" />
+   </children>
+</AnchorPane>
